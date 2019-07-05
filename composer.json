@@ -1,0 +1,25 @@
+{
+    "name": "pxgamer/laravel-preset-api",
+    "type": "library",
+    "description": "A backend-only preset for Laravel.",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3",
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "pxgamer\\Skeleton\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "pxgamer\\LaravelApiPreset\\LaravelApiPresetServiceProvider"
+            ]
+        }
+    }
+}
