@@ -14,6 +14,7 @@ final class LaravelApiPreset extends Preset
         self::removeJsFiles();
         self::removeSassFiles();
         self::removeViewFiles();
+        self::updateRoutes();
     }
 
     private static function removeJsFiles(): void
@@ -43,6 +44,13 @@ final class LaravelApiPreset extends Preset
             $filesystem->delete(resource_path('views/welcome.blade.php'));
 
             $filesystem->put(resource_path('views/.gitkeep'), '');
+        });
+    }
+
+    private static function updateRoutes(): void
+    {
+        tap(new Filesystem(), function (Filesystem $filesystem): void {
+            $filesystem->copy(__DIR__.'/stubs/web.php.stub', base_path('routes/web.php'));
         });
     }
 }
