@@ -7,7 +7,7 @@
 [![Code Coverage][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-A backend-only preset for Laravel.
+A backend-only preset for the Laravel framework.
 
 ## Install
 

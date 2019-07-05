@@ -1,7 +1,7 @@
 {
     "name": "pxgamer/laravel-preset-api",
     "type": "library",
-    "description": "A backend-only preset for Laravel.",
+    "description": "A backend-only preset for the Laravel framework.",
     "license": "MIT",
     "require": {
         "php": "^7.3",
