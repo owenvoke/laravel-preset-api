@@ -13,6 +13,7 @@ final class LaravelApiPreset extends Preset
     {
         self::removeJsFiles();
         self::removeSassFiles();
+        self::removeViewFiles();
     }
 
     private static function removeJsFiles(): void
@@ -33,6 +34,15 @@ final class LaravelApiPreset extends Preset
         tap(new Filesystem(), function (Filesystem $filesystem): void {
             $filesystem->deleteDirectory(resource_path('sass'));
             $filesystem->deleteDirectory(public_path('css'));
+        });
+    }
+
+    private static function removeViewFiles(): void
+    {
+        tap(new Filesystem(), function (Filesystem $filesystem): void {
+            $filesystem->delete(resource_path('views/welcome.blade.php'));
+
+            $filesystem->put(resource_path('views/.gitkeep'), '');
         });
     }
 }
