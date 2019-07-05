@@ -22,6 +22,7 @@ final class LaravelApiPreset extends Preset
             $filesystem->deleteDirectory(public_path('js'));
             $filesystem->deleteDirectory(base_path('node_modules'));
 
+            $filesystem->delete(base_path('package.json'));
             $filesystem->delete(base_path('webpack.mix.js'));
             $filesystem->delete(base_path('yarn.lock'));
         });
