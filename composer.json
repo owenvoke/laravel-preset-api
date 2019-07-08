@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "pxgamer\\Skeleton\\": "src"
+            "pxgamer\\LaravelApiPreset\\": "src"
         }
     },
     "config": {
