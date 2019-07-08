@@ -6,4 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/pxgamer/:package_name/compare/master...develop
+## v1.0.0 - 2019-07-08
+
+### Added
+- Initial commit
+
+[Unreleased]: https://github.com/pxgamer/laravel-preset-api/tree/master
