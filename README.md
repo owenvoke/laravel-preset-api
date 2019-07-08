@@ -53,13 +53,13 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-version]: https://img.shields.io/packagist/v/pxgamer/laravel-preset-api.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/pxgamer/laravel-preset-api/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/:styleci/shield
+[ico-styleci]: https://styleci.io/repos/195417471/shield
 [ico-code-quality]: https://img.shields.io/codecov/c/github/pxgamer/laravel-preset-api.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/pxgamer/laravel-preset-api.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/pxgamer/laravel-preset-api
 [link-travis]: https://travis-ci.com/pxgamer/laravel-preset-api
-[link-styleci]: https://styleci.io/repos/:styleci
+[link-styleci]: https://styleci.io/repos/195417471
 [link-code-quality]: https://codecov.io/gh/pxgamer/laravel-preset-api
 [link-downloads]: https://packagist.org/packages/pxgamer/laravel-preset-api
 [link-author]: https://github.com/pxgamer
