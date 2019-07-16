@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ## [Unreleased]
 
+## v1.1.0 - 2019-07-16
+
+### Added
+- Add installer warning and confirmation message ([#4](https://github.com/pxgamer/laravel-preset-api/pull/4))
+
 ## v1.0.0 - 2019-07-08
 
 ### Added
